@@ -1,0 +1,148 @@
+body[data-page-id="149"] {
+
+    .contentHeader {
+        display: none;
+    }
+
+    .contentItemMetaContent {
+        text-align: center;
+    }
+
+    .info {
+        margin: 0 0 20px 0;
+        border-radius: 8px;
+    }
+ 
+    .contentItem {
+        border-radius: 8px !important;
+    }
+
+    .content .contentInteraction + .section,
+    .boxesContentTop {
+        margin-top: 0 !important;
+    }
+
+    .news .contentItemMetaContent {
+        text-align: center;
+    }
+
+    .neues-aus-dem-blog .contentItemMetaContent {
+        text-align: left;
+    }
+     .neues-aus-dem-blog, .news {
+        padding: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+
+    .contentItemCategory, .contentItemMetaImage, .contentItemMetaAuthor, .contentItemMetaIcons {
+        display: none;
+    }
+    
+    .boxTitle {
+        text-align: center;
+        border-radius: 8px 8px 0 0;
+        border-top: 5px solid #e5e9f2 !important;
+        background: #fafafa;
+        border-left: 1px solid #e5e9f2 !important;
+        border-right: 1px solid #e5e9f2 !important;
+        background-image: url(/media/2);
+        padding: 20px;
+        margin: 0 !important;
+        box-shadow: 0 0 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    }
+
+    .contentItemTitle {
+        margin: 20px 0;
+        border-bottom: 1px solid #374250 ;
+        padding-bottom: 5px;
+        color: #7dc9c5;
+    }
+
+    .boxTitle+.boxContent {
+        margin-top: 2px !important;
+    }
+}
+    
+    .neueste-medien {
+        padding: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+
+   
+    .boxTitle {
+        text-align: center;
+        border-radius: 8px 8px 0 0;
+        border-top: 5px solid #e5e9f2 !important;
+        background: #fafafa;
+        border-left: 1px solid #e5e9f2 !important;
+        border-right: 1px solid #e5e9f2 !important;
+        background-image: url(/media/2);
+        padding: 20px;
+        margin: 0 !important;
+        box-shadow: 0 0 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    }
+
+ 
+    .boxTitle+.boxContent {
+        margin-top: 2px !important;
+        box-shadow: 0 0 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    }
+        
+    .galleryImageList {
+        border-radius: 0 0 8px 8px !important; 
+        border: 1px solid #e5e9f2 !important;
+        padding: 10px 0;
+        background: #f9fafc !important;
+    }
+    }
+    
+.ich-meine-leistungen {
+    .contentItemImageLarge {
+        height: 500px !important;
+        width: 100% !important;
+    }
+        
+    .contentItemContentLinks {
+        padding: 5px 0 !important;
+        color: #6bbce4;
+        font-weight: bold;
+    }
+        
+    .trennlinie {
+        margin: 20px 0 !important;
+    }
+        
+    .weiterfuehrende-links {
+        padding: 20px !important;
+    }
+
+	.col-md-6 {
+		padding: 0 20px 0 0 !important;
+	}
+
+	@include screen-md-down {
+	.col-md-6 {
+		padding: 0 20px 0 0 !important;
+	}
+	}
+
+}
+
+.letzte-beitraege {
+    
+    .section {
+        margin-top: 0 !important;
+    }
+
+    .containerList > li {
+        padding: 20px 0 !important;
+    }
+
+    .sectionHeader, .containerContentType {
+        display: none;
+    }
+
+}
+
+}
+    
