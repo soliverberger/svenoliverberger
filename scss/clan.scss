@@ -1,0 +1,46 @@
+.box.clans_overview {
+	padding: 10px 0 !important;
+	border: 1px solid #e5e9f2;
+	box-shadow: none !important;
+}
+
+#tpl_clan_clan,
+#tpl_clan_clanComment, 
+#tpl_clan_clanMembers, 
+#tpl_clan_clanLastActivity,
+#tpl_clan_clanBoardList,
+#tpl_clan_clanBoard,
+#tpl_clan_clanThread { 
+
+.contentInteraction,
+.section .section>.sectionHeader, .section .section>.sectionTitle {
+	margin: 20px 0 !important;
+}
+	
+.clanTitle {
+	display: none;
+}
+	
+.tabMenu > ul, .menu > ul {
+	margin-bottom: 20px;
+}
+	
+.content>.section, .clanNavigation {
+	margin-top: 20px !important;
+}
+	
+	
+.clan_statistiken {
+	border: none !important;
+	box-shadow: none !important;
+	
+.boxContent {
+	padding: 0 !important;
+		
+p {
+		padding: 0 20px 20px 20px;
+}
+}
+}
+	
+}
