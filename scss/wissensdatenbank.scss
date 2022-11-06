@@ -1,0 +1,50 @@
+body[itemid="https://svenoliverberger.de/db/article/gizmo/3-die-r%C3%A4nge-im-forum/"],
+body[itemid="https://svenoliverberger.de/db/article/section/92-charaktere/"],
+body[itemid="https://svenoliverberger.de/db/article/section/89-lie-to-me/"],
+body[itemid="https://svenoliverberger.de/db/article/section/103-forum/"],
+body[itemid="https://svenoliverberger.de/db/article/section/95-den-umgang-mit-dem-wsc-erlernen/"],
+body[itemid="https://svenoliverberger.de/db/article/section/97-f%C3%BCr-anf%C3%A4nger/"] {
+.content > .section {
+	padding: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+}
+
+body[itemid="https://svenoliverberger.de/db/article/section/91-serien/"] {
+.content > .section {
+	padding: 20px !important;
+	border: 1px solid #e5e9f2 !important;
+    border-top: 3px solid #FFE6C7 !important;
+	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%) !important;
+}
+}
+
+.knowledgebaseCategoryList .knowledgebaseCategory .knowledgebaseCategoryHeader {
+    background: #fafafa;
+    background-image: url(/media/2/);
+    color: #9cacbb;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: 1px solid #d9dfe5;
+    border-radius: 6px 6px 0 0;
+
+.badge, a.badge {
+    margin-left: 5px;
+}
+
+}
+
+.knowledgebaseCategoryList .knowledgebaseCategory {
+    background: #fff;
+    border-top: 3px solid #FFE6C7 !important;
+    box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+    border: 1px solid #e5e9f2;
+    border-radius: 8px;
+}
+
+#tpl_knowledgebase_knowledgeArticle .content > .section .tagList {
+	margin: 30px 0;
+}
