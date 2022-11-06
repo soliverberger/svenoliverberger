@@ -1,0 +1,183 @@
+.nachweise,
+.changelogs,
+.my-content,
+.lieblings-zitate,
+.lebenslauf,
+.meine-verstorbene-familie,
+.bestellungen-rechnungen,
+.letzte-beitraege,
+#tpl_rdb_userRecipeList,
+#tpl_wcf_categoryHelpList,
+#tpl_wbb_threadAdd,
+#tpl_wbb_boardList,
+#tpl_wbb_board,
+#tpl_wbb_thread,
+#tpl_blog_entryList,
+#tpl_blog_blogEntryList,
+#tpl_blog_blogList,
+#tpl_poi_poiList,
+#tpl_marketplace_entryList,
+#tpl_marketplace_map,
+#tpl_calendar_map,
+#tpl_gallery_map,
+#tpl_poi_map,
+#tpl_calendar_map,
+#tpl_clan_clanList,
+.mein-beitrag-zur-umwelt,
+#tpl_show_entryList,
+body[data-page-id="221"], 
+body[data-page-id="36"], // News
+body[data-page-id="392"], // Erlaubnis
+body[data-page-id="402"], // Versionsverlauf
+body[data-page-id="417"], // Serienübersicht - The Mentalist
+body[data-page-id="420"], // The Mentalist - Staffel 1 Folge 1
+body[data-page-id="468"], // Changelogs - WoltLab Suite 5.5.0
+body[data-page-id="470"], // Changelogs - WoltLab Sute 6.0
+body[data-page-id="564"] { // Changelogs - WoltLab Suite 5.3.0
+.content > .section {
+	padding: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+}
+
+@include screen-md-down {
+#tpl_blog_entry {
+.content > .section {
+	padding: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+	}
+}
+
+.marktplatz-einträge,
+#tpl_marketplace_entry .messageList .message,
+body[data-page-id="149"] .ich-meine-leistungen,
+#tpl_blog_entryList .boxesContentBottom .box,
+#tpl_blog_blogList .empfohlene-artikel,
+#tpl_wbb_board .boxesContentTop .formular_steckbief,
+#tpl_wbb_thread .boxesContentTop .formular_steckbief,
+#tpl_poi_poi .boxesSidebarRight .box.boxInfo,
+#tpl_poi_poi .boxesSidebarLeft .box.boxInfo,
+body[data-page-id="149"] .news,
+body[data-page-id="149"] .neues-aus-dem-blog,
+#tpl_blog_blogList .empfohlene-blog-artikel,
+.db .boxesContentTop .box,
+.db .boxesContentBottom .box,
+.box .discordShoutbox,
+.letzte-beitraege .recentActivityList,
+#tpl_clan_clanList .letzte-aktivtäten {
+	padding: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.legend-box {
+ 	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+	padding: 20px;
+	border-radius: 8px;
+	border-color: #e5e9f2 !important;
+	background: #f9fafc !important;
+}
+	
+.legend-box-legend {
+	background: #8CAEDE !important;
+	background-image: url(/media/2/) !important;
+	border: 2px solid #7dc9c5 !important;
+	
+strong {
+	color: #fff;
+}
+}
+
+.content .last-edit-box {
+	text-align: center;
+	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e5e9f2;
+    background: #f9fafc;
+	margin-left: 0;
+	
+>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    white-space: inherit;
+}
+}
+
+
+#main, .boxesFooter, .boxesFooterBoxes {
+    background-image: url('/media/1/');
+    background-size: cover;
+}
+
+.main > div,
+.boxesContentTop .box, .boxesContentBottom .box,
+.content > .section {
+	border-top: 3px solid #F8E2BD !important;
+	border: 1px solid #e5e9f2;
+	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+	border-radius: 8px;
+	background: #fff;
+   	padding: 20px;
+}
+
+.wcfAcp {
+	.main > div, .content > .section, .boxesContentTop .box, .boxesContentBottom .box {
+	border-top: 1px solid #ecf1f7 !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+}
+.main > div {
+	background: #fafafa !important;
+}
+
+.main {
+    padding: 0 !important;
+}
+}
+
+.boxesSidebarLeft .box, .boxesSidebarRight .box {
+	background: #fff;
+    border-top: 3px solid #FFE6C7 !important;
+	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+	border: 1px solid #e5e9f2;
+    border-radius: 8px;
+	padding: 0px !important;
+.boxTitle {
+	background: #fafafa;
+	background-image: url("/media/2/");
+    color: #9cacbb;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px;
+    border-bottom: 1px solid #d9dfe5;
+    border-radius: 6px 6px 0 0;
+	
+a {
+	color: #9cacbb;
+}
+	
+}
+.boxContent {
+	padding: 0px 20px 10px 20px;
+}
+	
+}
+.easysliderBox {
+	margin-top: 20px;
+}
+
+@include screen-md-down	{
+.columnBBCode.column0 p {
+	margin-bottom: 10px;
+}
+}
+
+#tpl_gallery_image .galleryImageContainer > .galleryImage img {
+	border-radius: 8px;
+}
