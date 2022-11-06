@@ -1,0 +1,36 @@
+#tpl_cemetery_category,
+#tpl_cemetery_animalGrave,
+#tpl_cemetery_animalGraves,
+#tpl_cemetery_humanGrave,
+#tpl_cemetery_humanGraves {
+.graveOwner {
+    display: none;
+}
+
+@media screen and (min-width: 769px), print
+.gravePortraitInline {
+    float: right;
+    padding: 0 !important;
+    border-radius: 8px;
+
+}
+}
+
+
+#tpl_cemetery_humanGrave { 
+.gravePortraitInline {
+    max-width: 400px;
+    width: 400px;
+    height: 400px;
+    max-height: 400px;
+}
+}
+
+#tpl_cemetery_animalGrave {
+.gravePortraitInline {
+    max-width: 2000px;
+    width: 550px;
+    height: 300px;
+    max-height: 400px;
+}
+}
