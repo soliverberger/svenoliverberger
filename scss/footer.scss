@@ -1,0 +1,105 @@
+.pageFooterCopyright {
+	display: none;
+}
+
+
+.footer-area, .boxesFooterBoxes, .boxesFooterBoxes .boxTitle {
+a {
+	color: #8494ac;
+}
+		
+a:hover {
+	color: #0DA9EFFF;
+	text-decoration: none;
+}
+}
+
+.footer-area {
+    border-top: 3px solid #F8E2BD !important;
+	border: 1px solid #e5e9f2;
+	border-radius: 8px;
+	padding: 40px 20px;
+	background-color: #fff;
+	color: #8494ac;
+	
+.gridBoxList li:first-child {
+	padding-top: 0 !important;
+}
+.gridBoxTitle {
+	font-size: 18px;
+	margin: 20px 0;
+}
+}
+
+.SocialLinks {
+	margin-top: 10px;
+	display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid #8494ac;
+}
+
+.footer-area-bottom {
+	margin-top: 50px;
+}
+
+.footer-copyright {
+	margin-top: 50px;
+	text-align: center;
+	border: 1px solid #9cacbb;
+	border-radius: 8px;
+	background-image: url("/media/2/");
+@include screen-lg {
+	padding: 20px 0;
+}
+@include screen-md-down {
+	padding: 20px 10px;
+}
+	
+}
+
+.trennlinie {
+	margin-top: 50px;
+	height: 25px;
+	background: url("/media/3/") no-repeat center;
+    border: none;
+}
+
+.slogan_text {
+	font-size: 20px;
+}
+
+.slogan_line {
+	font-size: 14px;
+}
+	
+.boxesFooterBoxes {
+	color: #8494ac;
+	
+.layoutBoundary {
+	padding: 0 !important;
+}
+
+.boxContainer {
+	@include screen-md-down { margin: 0 !important; }
+	@include screen-lg { margin-bottom: 10px !important; }
+	padding: 0 !important;
+}
+	
+.boxTitle {
+	color: #8494ac;
+}
+
+.box {
+	background: #fff;
+	padding: 40px;
+	border-top: 5px solid #e5e9f2 !important;
+	border: 2px solid #e5e9f2;
+	box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+    flex: 0 0 48%;
+	border-radius: 8px;
+   	margin: 0 1% !important;
+}
+}
