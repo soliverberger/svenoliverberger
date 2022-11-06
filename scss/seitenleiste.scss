@@ -1,0 +1,197 @@
+.boxesSidebarLeft .discord-widget {
+	border-bottom: 0 !important;
+	box-shadow: none !important;
+	
+.scDiscordWidgetJoin {
+	margin: 20px 0 !important;
+	text-align: left;
+}
+}
+
+.boxesSidebarLeft .left-shoutbox {
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	border-top: 0 !important;
+	border-bottom: 0 !important;
+}
+
+.boxesSidebarLeft .last-shoutbox {
+	box-shadow: none !important;
+	border-top: 0 !important;
+	border-radius: 0 0 8px 8px !important;
+}
+
+#tpl_calendar_event {
+.sidebarGoogleMap {
+	margin: 10px 0 20px 0;
+}
+.contentHeaderMetaData {
+	margin-top: 20px;
+}
+}
+	
+#tpl_poi_poi, #tpl_show_entry {
+.sidebarGoogleMap {
+	margin-top: 10px;
+}
+}
+
+.boxesSidebarLeft .meine-inhalte {
+	border-radius: 8px 8px 0 0 !important;
+}
+
+.boxesSidebarLeft .meine-blogs,
+.boxesSidebarLeft .meine-privaten-inhalte,
+.boxesSidebarLeft .anzahl-der-eintraege {
+	border-radius: 0 !important;
+}
+
+.boxesSidebarLeft .meine-alben {
+	border-radius: 0 0 8px 8px !important;
+}
+
+.boxesSidebarLeft .meine-inhalte,
+.boxesSidebarLeft .meine-privaten-inhalte,
+.boxesSidebarLeft .anzahl-der-eintraege,
+.boxesSidebarLeft .meine-privaten-inhalte,
+.boxesSidebarLeft .meine-blogs,
+.boxesSidebarLeft .meine-alben {
+	
+.boxTitle {
+	border-radius: 0 !important;
+}
+
+}
+
+.boxesSidebarLeft .box.meine-inhalte  {
+
+.box24 {
+	margin-bottom: 20px;
+}
+	
+.sidebarItemTitle {
+	margin-left: 5px;
+}
+	
+h3 {
+	font-weight: bold;
+}
+		
+.userAvatarImage {
+	width: 64px;
+	height: 64px;
+	border-radius: 5px;
+}
+		
+}
+
+/* Meine privaten Inhalte */
+
+.boxesSidebarLeft .box.meine-privaten-inhalte  {
+	margin-top: 0 !important;
+	border-top: 0 !important;
+	border-bottom: 0 !important;
+	
+.box24 {
+	margin-bottom: 10px;
+
+}
+
+.sidebarItemTitle {
+	margin-left: 5px;
+}
+
+h3 {
+	font-weight: bold;
+}
+	
+.userAvatarImage {
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+}
+	
+}
+
+/* Meine Blogs */
+	
+.boxesSidebarLeft .box.meine-blogs {
+	margin-top: 0 !important;
+	border-top: 0 !important;
+		
+.box24 {
+	margin-bottom: 20px;
+}
+
+.sidebarItemTitle {
+	margin-left: 5px;
+}
+
+h3 {
+	font-weight: bold;
+	
+&:before {
+	content: 'Blog:' ' ';
+}
+	
+}
+	
+.userAvatarImage {
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+}
+
+small a, .separatorLeft::before {
+    display: none;
+}
+}
+
+/* Meine Alben */
+
+.boxesSidebarLeft .box.meine-alben  {
+	margin-top: 0 !important;
+	border-top: 0 !important;
+	
+h3 {
+	font-weight: bold;
+
+&:before {
+	content: 'Album:' ' ';
+}
+	
+}
+
+.gallerySidebarItemImage img  {
+	border-radius: 5px;
+}
+
+}
+
+/* Febas */
+
+.boxesSidebarLeft .hosted_by_febas img {
+	margin: 20px 0;
+}
+
+/* Discord */
+
+.boxesSidebarLeft .box.discord-widget {
+	border-radius: 8px 8px 0 0 !important;
+}
+	
+.boxesSidebarLeft .box.left-shoutbox,
+.boxesSidebarLeft .box.last-shoutbox {
+	margin-top: 0 !important;
+	border-top: 0 !important;
+	border-radius: 0 0 8px 8px !important;
+	
+.boxTitle {
+	background: none !important;
+	border: none !important;
+	font-size: 15px !important;
+	color: #506177 !important;
+	font-weight: 0 !important;
+    text-transform: none !important;
+}
+}
