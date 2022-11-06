@@ -1,0 +1,18 @@
+#tpl_wbb_thread {
+.jiraIssue {
+    border-top: 3px solid #7dc9c5 !important;
+    border: 1px solid #e5e9f2;
+    box-shadow: 0 1px 2px 0 rgb(33 33 33 / 14%), 0 0 1px 0 rgb(0 0 0 / 14%);
+    border-radius: 8px;
+    padding: 20px;
+    background: #fff;
+    background-image: url(/media/2/);
+        }
+}
+
+#tpl_wcf_jiraIssue {
+    .jiraIssue {
+        background: #fff;
+        border: none !important;
+    }
+}
