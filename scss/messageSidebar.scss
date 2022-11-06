@@ -1,0 +1,69 @@
+.messageSidebar {
+	text-align: left !important;
+}
+
+#tpl_wbb_thread .userAvatarImage {
+    border-radius: 5px !important;
+}
+
+.specialTrophyContainer>ul {
+    justify-content: left;
+	display: none;
+}
+
+.steamMessageSidebar {
+	display: none;
+}
+
+.messageSidebar .specialTrophyContainer>ul {
+	display: none;
+}
+
+.messageSidebar .badge_admin {
+    color: #6bbce4;
+    font-weight: bold;
+}
+
+.messageSidebar .badge_user {
+	color: #7f8c8d;
+	font-weight: bold;
+}
+
+.messageSidebar .badge_mod {
+	color: #d64434;
+}
+
+.messageSidebar .badge_system {
+	background: #369;
+	margin-top: 5px;
+&::before {
+	content: '\f121';
+    font-family: FontAwesome;
+    margin-right: 5px;
+    position: relative;
+}
+.userAvatarImage {
+	border-radius: 2px !important;
+	}
+}
+
+.messageSidebar .badge_admin,
+.messageSidebar .badge_user,
+.messageSidebar .badge_mod {
+    background-color: #f9fafc;
+    padding-left: 0 !important;
+} 
+
+.messageSidebar .messageAuthorContainer:not(:last-child) {
+	margin-bottom: 0px;	
+}
+
+
+@include screen-sm-up {
+
+.userOnlineGroupMarking3 .messageSidebar,
+.userOnlineGroupMarking4 .messageSidebar,
+.userOnlineGroupMarking5 .messageSidebar  {
+	border: solid 1px #7f8c8d;
+}
+}
