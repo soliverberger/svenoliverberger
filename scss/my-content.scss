@@ -1,0 +1,50 @@
+.my-content .content > .section {
+    h2 {
+        text-align: center;
+        border-radius: 8px 8px 0 0;
+        border-top: 5px solid #e5e9f2 !important;
+        background: #fafafa;
+        border-left: 1px solid #e5e9f2 !important;
+        border-right: 1px solid #e5e9f2 !important;
+        background-image: url(/media/2);
+        padding: 20px;
+        margin: 0 !important;
+        box-shadow: 0 0 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    }
+        
+    h4 {
+        border-top: 1px solid #e5e9f2 !important;
+        border-left: 1px solid #e5e9f2 !important;
+        border-right: 1px solid #e5e9f2 !important;
+        margin: 0 !important;
+        padding: 20px;
+        box-shadow: 0 0 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    }
+    
+    ul {
+        border-left: 1px solid #e5e9f2 !important;
+        border-right: 1px solid #e5e9f2 !important;
+        margin: 0 !important;
+        padding: 30px;
+    }
+        
+    .messageTableOverflow {
+        border-radius: 0 0 8px 8px !important;
+        border: 1px solid #e5e9f2 !important;
+        margin: 0 0 30px 0 !important;
+        padding: 20px;
+        box-shadow: 0 0 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    }
+        
+    .mediaBBCode {
+        margin-bottom: 20px;
+        border-radius: 0 0 8px 8px;
+    }
+        
+    table, tbody, tr td {
+        border: none !important;
+        text-align: left !important;
+        padding: 5px !important;
+    }
+        
+    }
