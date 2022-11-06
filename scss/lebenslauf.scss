@@ -1,0 +1,41 @@
+.lebenslauf {
+	margin-top: 20px;
+	
+.lebenslauf-bereich {
+    text-align: center;
+    border-radius: 8px;
+    border-top: 5px solid #e5e9f2 !important;
+    background: #fafafa;
+    border-left: 1px solid #e5e9f2 !important;
+    border-right: 1px solid #e5e9f2 !important;
+    background-image: url(/media/2);
+    padding: 20px;
+    box-shadow: 0 0 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+	margin: 20px 0;
+	font-size: 23px;
+    font-weight: 300;
+    line-height: 1.28;
+}
+
+.own-timeline-text {
+	margin: 20px 0;
+}
+	
+.content> .section ul {
+	border: none !important;
+	padding: 10px 0 0 15px !important;
+}
+	
+.content> .section ol {
+	padding: 0 !important;
+	margin: 10px 0 0 15px !important;
+}
+	
+.timelineContainer .timeline .timeline-content {
+	border-top: 5px solid #e5e9f2 !important;
+    background: #F7F7F9;
+    border: 2px solid #e5e9f2;
+	border-radius: 8px;
+    padding: 20px;
+}
+}
